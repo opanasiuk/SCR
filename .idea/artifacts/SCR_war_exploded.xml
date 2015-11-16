@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SCR:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SCR_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SCR/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SCR" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
