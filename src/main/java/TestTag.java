@@ -1,17 +1,15 @@
-import org.springframework.boot.SpringApplication;
+package src.main.java;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import com.sun.corba.se.impl.util.Version;
 
 /**
  * Created by Vitaliy on 16.11.2015.
  */
 public class TestTag {
 
-    private final static Logger logger = Logger.getGlobal();
+
     public static void main(String[] args) {
-        SpringApplication.run(TestTag.class,args);
-        logger.log(Level.INFO, "[TAG] :" + GitInfo.TAG);
+        System.out.printf("Version of Project %s",Version.VERSION);
     }
 
 }
